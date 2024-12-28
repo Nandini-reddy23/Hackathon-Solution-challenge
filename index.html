@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listing Platform</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Discover Local Events</h1>
+    <button id="themeToggle">Light/Dark Mode</button>
+  </header>
+
+  <main>
+    <div class="search-sort-bar">
+      <input type="text" id="searchBar" placeholder="Search by name or category...">
+      <select id="sortSelect">
+        <option value="date">Sort by Date</option>
+        <option value="category">Sort by Category</option>
+      </select>
+    </div>
+
+    <section id="eventList" class="event-list">
+      <!-- Event cards will be dynamically generated here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Event Listing Platform</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

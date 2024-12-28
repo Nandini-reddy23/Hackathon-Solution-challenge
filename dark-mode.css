@@ -1,0 +1,30 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  header.dark-mode {
+    background-color: #333;
+  }
+  
+  .event-card.dark-mode {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: #e0e0e0;
+  }
+  
+  button.dark-mode {
+    background-color: #6200ea;
+    color: white;
+  }
+  
+  input[type="text"].dark-mode {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  button.dark-mode:hover {
+    background-color: #3700b3;
+  }
